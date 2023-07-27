@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+/* header section start here */
+
+.navbarStyle {
+    border-radius: 30px;
+    padding: 12px 0;
+}
+
+.headerImage {
+    width: 400px;
+}
+
+.headerImage img {
+    width: 30px;
+    height: 35px;
+}
+
+.headerImage h3 {
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 0 0 7px;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .resHeaderImg {
+        display: none !important;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .navbarStyle {
+        background-color: #fff !important;
+    }
+
+    .headerImage {
+        display: none !important;
+    }
+
+    .navbar-toggler {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        border: none;
+        color: #fff !important;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .resHeaderImg img {
+        width: 30px;
+        height: 35px;
+    }
+
+    .resHeaderImg h3 {
+        font-size: 22px;
+        padding: 5px 0 0 7px;
+    }
+
+    .linkStyle li a {
+        color: #000 !important;
+    }
+
+    .linkStyle li {
+        text-align: center;
+    }
+}
+
+/* header section end here */
+
+/* banner section start here */
+.bannerStyle {
+    padding-top: 40px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 10.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.imgSyle img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    color: #f2f2f2;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    width: 20%;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .bannerStyle {
+        padding-top: 10px;
+    }
+
+    .carousel-caption {
+        display: block;
+    }
+
+    .carousel-control-prev {
+        position: absolute;
+        width: 25%;
+    }
+}
+
+/* banner section end here */
+
+/* deal of the  day start */
+.dealDesc {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.leftDesc {
+    width: 50%;
+}
+
+.leftDesc h2 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.leftDesc p {
+    font-size: 13px;
+}
+
+.date {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.date h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.date p {
+    font-size: 10px;
+}
+
+.dealCard {
+    border: 1px solid #e6d9d9;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+.dealCard img {
+    width: 60px;
+    height: auto;
+}
+
+.dealCard h6 {
+    padding: 20px 0 15px 0;
+    font-weight: bold;
+}
+
+.dealCard p {
+    font-size: 14px;
+    color: #878787;
+}
+
+.ratting i {
+    color: red;
+    padding: 10px 0;
+}
+
+.dealCard button {
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .dealDesc {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftDesc h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .leftDesc p {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .date {
+        text-align: center;
+        padding-right: 5px;
+    }
+}
+
+/* deal of the  day end */
+
+
+/* team section start */
+.teamStyle {
+    background-image: url("./images/team.png");
+    background-color: #cccccc;
+    min-height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.teamBackColor {
+    width: 100%;
+    height: 450px;
+    background-color: #00000091;
+}
+
+.teamText {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 70px;
+    color: #fff;
+}
+
+.teamText h3 {
+    text-align: center;
+}
+
+.teamText p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.teamCardStyle {
+    padding: 30px 150px;
+    color: #f2f2f2;
+}
+
+.teamCard {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.teamCard img {
+    width: 75px;
+    height: auto;
+}
+
+.teamCard h6 {
+    font-size: 15px;
+    padding-top: 12px;
+}
+
+.teamCard p {
+    font-size: 12px;
+}
+
+.icon i {
+    width: 25px;
+    height: 25px;
+    background-color: brown;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.icon i {
+    margin-right: 7px;
+}
+
+@media only screen and (max-width: 992px) {
+    .teamText {
+        width: 70%;
+    }
+
+    .teamText p {
+        text-align: center;
+        font-size: 12px;
+        padding-top: 15px;
+    }
+
+    .teamBackColor {
+        height: auto !important;
+    }
+
+    .teamCardStyle {
+        padding: 30px 0;
+        color: #f2f2f2;
+    }
+
+}
+
+/* team section end */
+
+
+/* footer section start here */
+
+.footerStyle {
+    margin-top: 40px;
+    background-color: #222;
+    padding: 50px 0;
+}
+
+.footerImg {
+    display: flex;
+    justify-content: center;
+}
+
+.footerImg img {
+    width: 30px;
+    height: 35px;
+}
+
+.footerImg h3 {
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 0 0 7px;
+}
+
+.resLink {
+    display: flex;
+}
+
+.divFooterLink {
+    color: #fff;
+}
+
+.divFooterLink ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.divFooterLink ul li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+.footerLinkIcon {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.footerLinkIcon i {
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 992px) {
+    .divFooterLink ul li {
+        padding: 5px 10px;
+    }
+
+    .resLink {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .supportAccount {
+        justify-content: space-around;
+    }
+
+}
+
+/* footer section end here */
